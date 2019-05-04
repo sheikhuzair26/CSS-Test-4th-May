@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+}
+
+.btn1 {
+    border: 1px solid;
+    background-color: #c63928;
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    padding: 14px;
+    margin: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: absolute;
+    top: 278px;
+    left: 63px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #ec4d50;
+}
+
+.btn2 {
+    border: 2px solid;
+    background-color: #fdd835;
+    border-style: solid;
+    border-color: #2a61fb;
+    color: #2a61fb;
+    padding: 14px;
+    margin: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: absolute;
+    top: 275px;
+    left: 285px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.btn2:hover {
+    background-color: #2a61fb;
+    color: #fdd835;
+}
+
+.btn3 {
+    background-image: linear-gradient(to right, #59d0dd, #a2d389);
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 23px;
+    margin: 10px;
+    padding-right: 38px;
+    padding-left: 38px;
+    position: absolute;
+    top: 275px;
+    left: 490px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.btn4 {
+    border: 2px solid;
+    background-color: white;
+    border-style: solid;
+    border-color: #6749ea;
+    color: #6749ea;
+    padding: 11px;
+    margin: 10px;
+    padding-right: 23px;
+    padding-left: 23px;
+    position: absolute;
+    top: 275px;
+    left: 747px;
+    cursor: pointer;
+    border-radius: 11px;
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+.btn4:hover {
+    background-color: #6749ea;
+    color: #ffffff;
+}
+
+.btn5 {
+    border: 3px solid;
+    background-color: #f7b032;
+    border-style: solid;
+    border-color: transparent;
+    color: #ffffff;
+    padding: 9px;
+    margin: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: absolute;
+    top: 275px;
+    right: 236px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.btn5:hover {
+    background-color: #f38e31;
+    color: #ffffff;
+}
+
+.btn6 {
+    border: 2px solid;
+    background-color: white;
+    border-style: solid;
+    border-color: #37a1f3;
+    position: absolute;
+    top: 290px;
+    height: 40px;
+    right: 120px;
+    width: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+.btn6:hover {
+    background-color: #37a1f3;
+    color: #ffffff;
+}
+
+i {
+    color: #37a1f3;
+}
+
+i:hover {
+    color: #ffffff;
+}

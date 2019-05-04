@@ -1,0 +1,39 @@
+body {
+    background-color: #e2e4e5;
+}
+
+header {
+    width: 1100px;
+    background-color: #eceff1;
+    margin: 40px auto;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 2px 2px #e5b6b5;
+    font-weight: bold;
+}
+
+.flag {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 1100px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+figure:hover {
+    background-color: white;
+    color: #ed473b;
+}
+
+figure {
+    padding: 20px;
+}
