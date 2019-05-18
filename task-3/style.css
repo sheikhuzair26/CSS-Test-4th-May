@@ -1,22 +1,90 @@
 body {
-    background: linear-gradient(to right, #a8ff78, #78ffd6);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
+    background: linear-gradient(to right, #5ad0da, #aed481);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
-.main {
+form {
     border: 1px solid;
-    width: 471px;
-    height: 460px;
-    position: absolute;
-    top: 99px;
-    left: 465px;
-    background-color: #aee6d7;
-    padding-top: 26px;
+    padding: 3em 1em 1em 1em;
+    width: 26em;
+    box-shadow: 0px 1px 4px 0px black;
+    border-radius: 6px;
+    background: linear-gradient(to right, #a5e5dd, #bce6cb);
 }
 
-.bars {
-    width: 393px;
-    padding: 5px;
-    margin-left: 32px;
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+input:focus {
+    background-color: #eee;
+}
+
+input {
+    width: -webkit-fill-available;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.button {
+    padding: 8px 2em;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    background-color: #44a7bb;
+    color: white;
+}
+
+a {
+    margin: 0 35px 0px 0px;
+    color: #2b5165;
+    font-size: 14px;
+}
+
+.button {
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button:hover {
+    background-color: #82bc3f;
+    color: white;
+    font-weight: 400;
 }

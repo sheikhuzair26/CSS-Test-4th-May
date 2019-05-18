@@ -19,8 +19,8 @@ h1 {
 .flag {
     display: flex;
     flex-direction: row;
-    margin: auto;
-    width: 1100px;
+    justify-content: center;
+	
 }
 
 figcaption {
