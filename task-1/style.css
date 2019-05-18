@@ -39,7 +39,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Gugi', cursive;
 }
 
 .btn2:hover {
@@ -81,7 +81,7 @@ body {
     cursor: pointer;
     border-radius: 11px;
     font-size: 18px;
-    font-family: fantasy;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn4:hover {
@@ -92,8 +92,8 @@ body {
 .btn5 {
     border: 3px solid;
     background-color: #f7b032;
-    border-style: solid;
-    border-color: transparent;
+    border-style: 1px solid;
+    border-color: #f49f31;
     color: #ffffff;
     padding: 9px;
     margin: 10px;
@@ -105,7 +105,7 @@ body {
     cursor: pointer;
     border-radius: 6px;
     font-size: 18px;
-    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn5:hover {
@@ -126,7 +126,6 @@ body {
     border-radius: 100%;
     cursor: pointer;
 }
-
 
 .btn6:hover {
     background-color: #37a1f3;
